@@ -4,10 +4,10 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/black"
+    android:background="@android:color/white"
     android:gravity="center"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".Signuplight">
 
     <ImageView
         android:id="@+id/imageView3"
@@ -26,7 +26,6 @@
         android:text="Let's get you Signed up"
         android:textSize="18sp"
         android:textStyle="bold"
-        android:textColor="@color/white"
         android:layout_below="@id/imageView3"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="16dp" />
@@ -37,7 +36,6 @@
         android:layout_height="wrap_content"
         android:text="Enter Information below"
         android:textSize="18sp"
-        android:textColor="@color/white"
         android:layout_below="@id/editTextText9"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="16dp" />
@@ -58,9 +56,7 @@
             android:hint="Firstname"
             android:inputType="text"
             android:textSize="18sp"
-            android:textStyle="bold"
-            android:textColor="@android:color/white" <!-- Set text color to white -->
-        />
+            android:textStyle="bold" />
 
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -80,9 +76,7 @@
             android:hint="Lastname"
             android:inputType="text"
             android:textSize="18sp"
-            android:textStyle="bold"
-            android:textColor="@android:color/white" <!-- Set text color to white -->
-        />
+            android:textStyle="bold" />
 
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -102,9 +96,7 @@
             android:hint="Enter email"
             android:inputType="textEmailAddress"
             android:textSize="18sp"
-            android:textStyle="bold"
-            android:textColor="@android:color/white" <!-- Set text color to white -->
-        />
+            android:textStyle="bold" />
 
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -126,9 +118,7 @@
             android:hint="Enter password"
             android:inputType="textPassword"
             android:textSize="18sp"
-            android:textStyle="bold"
-            android:textColor="@android:color/white" <!-- Set text color to white -->
-        />
+            android:textStyle="bold" />
 
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -139,10 +129,7 @@
         android:layout_below="@id/textInputLayout3"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
-        android:text="Sign up"
-        android:textColor="@color/white"
-        android:backgroundTint="@android:color/holo_green_dark"
-        />
+        android:text="Sign up" />
 
     <TextView
         android:id="@+id/editTextText6"
@@ -150,7 +137,6 @@
         android:layout_height="wrap_content"
         android:text="Already have an account?"
         android:textSize="18sp"
-        android:textColor="@color/white"
         android:layout_below="@id/button3"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="16dp" />
@@ -162,7 +148,6 @@
         android:text="Login"
         android:textSize="18sp"
         android:textStyle="bold"
-        android:textColor="@color/white"
         android:layout_below="@id/editTextText6"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="16dp" />
