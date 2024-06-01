@@ -12,15 +12,24 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SyncVision"
         tools:targetApi="31">
+
         <activity
             android:name=".Signin"
             android:exported="false" />
+
+        <activity
+            android:name=".Signuplight"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
         <activity
             android:name=".Darksignup"
             android:exported="false" />
-        <activity
-            android:name=".Signuplight"
-            android:exported="false" />
+
     </application>
 
 </manifest>

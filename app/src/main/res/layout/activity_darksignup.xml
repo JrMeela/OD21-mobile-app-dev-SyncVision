@@ -59,7 +59,7 @@
             android:inputType="text"
             android:textSize="18sp"
             android:textStyle="bold"
-            android:textColor="@android:color/white" <!-- Set text color to white -->
+            android:textColor="@android:color/white"
         />
 
     </com.google.android.material.textfield.TextInputLayout>
@@ -81,7 +81,7 @@
             android:inputType="text"
             android:textSize="18sp"
             android:textStyle="bold"
-            android:textColor="@android:color/white" <!-- Set text color to white -->
+            android:textColor="@android:color/white"
         />
 
     </com.google.android.material.textfield.TextInputLayout>
@@ -103,7 +103,7 @@
             android:inputType="textEmailAddress"
             android:textSize="18sp"
             android:textStyle="bold"
-            android:textColor="@android:color/white" <!-- Set text color to white -->
+            android:textColor="@android:color/white"
         />
 
     </com.google.android.material.textfield.TextInputLayout>
@@ -127,7 +127,7 @@
             android:inputType="textPassword"
             android:textSize="18sp"
             android:textStyle="bold"
-            android:textColor="@android:color/white" <!-- Set text color to white -->
+            android:textColor="@android:color/white"
         />
 
     </com.google.android.material.textfield.TextInputLayout>
